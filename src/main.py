@@ -4,6 +4,7 @@ from fastapi.responses import RedirectResponse
 
 
 # TODO: Pre-load the dataset
+# TODO: Pre-load the Aprox nearest neighbor index.
 
 app = FastAPI(
     title="ML API",
